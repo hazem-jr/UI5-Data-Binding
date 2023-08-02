@@ -1,2 +1,2 @@
 # UI5-Data-Binding
-Samples on APIs calling and binding in UI5
+Samples on API calling and data binding in UI5
