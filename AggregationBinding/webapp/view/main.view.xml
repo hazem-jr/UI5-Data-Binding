@@ -1,0 +1,33 @@
+<mvc:View controllerName="AggregationBinding.controller.main" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Table id="i_table" items="{path: '/People'}">
+						<columns>
+							<Column>
+								<Label text="Person ID"></Label>
+							</Column>
+							<Column>
+								<Label text="Person Name"></Label>
+							</Column>
+							<Column>
+								<Label text="Phone"></Label>
+							</Column>
+							<Column>
+								<Label text="Address"></Label>
+							</Column>
+						</columns>
+						<ColumnListItem>
+							<Text text="{Id}"></Text>
+							<Text text="{Name}"></Text>
+							<Text text="{Phone}"></Text>
+							<Text text="{Address}"></Text>
+						</ColumnListItem>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

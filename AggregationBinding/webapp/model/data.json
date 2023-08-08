@@ -1,0 +1,23 @@
+{
+	"People":[	{
+		"Id":"001",
+		"Name":"Hazem Abdel Fadil",
+		"Phone":"0123456789",
+		"Address":"Egypt"
+	},
+	{
+		"Id":"002",
+		"Name":"Ahmed Khaled",
+		"Phone":"0123456789",
+		"Address":"Saudi Arabia"
+		
+	},
+	{
+     	"Id":"003",
+		"Name":"tamer fathi",
+		"Phone":"0123456789",
+		"Address":"Egypt"
+
+	}
+	]
+}
